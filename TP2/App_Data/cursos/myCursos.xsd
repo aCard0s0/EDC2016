@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <xs:element name="cursos">
+    <xs:complexType>
+      <xs:sequence>
+        
+        <xs:element name="guid"   type="xs:nonNegativeInteger" />
+        
+        <!-- <xs:element name="codigo" type="xs:string" />  -->
+        <xs:element name="codigo">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:pattern value="[\d{4}\/\d{4}]" /> <!-- (4dig)/(4dig)-->
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        
+        <xs:element name="nome"   type="xs:string" />
+        
+      <!--  <xs:element name="grau"   type="xs:string" /> -->
+         <xs:element name="grau"> 
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="Licenciatura" />
+              <xs:enumeration value="Mestrado Integrado" />
+              <xs:enumeration value="Mestrado" />         <!-- ? -->
+              <xs:enumeration value="Douturamento" />     <!-- ? -->
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+
+        <!-- <xs:element name="ciclo"  type="xs:nonNegativeInteger" /> -->
+        <xs:element name="ciclo">
+          <xs:simpleType>
+            <xs:restriction base="xs:integer">
+              <xs:minInclusive value="1" /> <!-- 1-licenciatura 2-mestrado 3- doturamento ?-->
+              <xs:maxInclusive value="3" />
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+
+        <xs:element name="departamentos">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="departamento" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="areascientificas">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="areacientifica" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="areasformacao">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="areaformacao" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <!-- <xs:element name="regime" type="xs:string" /> -->
+        <xs:element name="regime">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="diurno / laboral" />
+              <xs:enumeration value="diurno ou noturno" />
+              <xs:enumeration value="à distância" />
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+
+        <xs:element name="local" type="xs:string" />
+
+        <xs:element name="provas">
+          <xs:complexType mixed="true"> <!--Specifies whether character data is allowed to appear between the child elements of this complexType element. -->
+            <xs:sequence>
+              <xs:element name="br" />
+              <xs:element name="strong"   type="xs:string" />
+              <xs:element name="ul">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="li" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="m23" type="xs:boolean" />
+        
+    </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+</xs:schema>

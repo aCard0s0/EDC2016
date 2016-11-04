@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<properties>
+  <!--Casas sem donos -->
+  <property id="1111" type="house">
+    <value cost="469788" currency="€" />
+    <address city="Viseu" street="Rua Alberto Sampaio" port="2" />
+  </property>
+  <property id="2222" type="apartment">
+    <value cost="587748" currency="$" />
+    <address city="Aveiro" street="Rua da Aviação" port="4" />
+  </property>
+  <!--Casas com 1 dono -->
+  <property id="3333" type="apartment">
+    <value cost="689578" currency="€" />
+    <address city="Porto" street="Rua Alta Vista" port="43" />
+    <owners>
+      <owner taxnumber="789456951">
+        <purchase date="04-07-2015" sold="06-06-2016" />
+        <name firstname="Miguel" lastname="Vieira" />
+      </owner>
+    </owners>
+  </property>
+  <property id="4444" type="house">
+    <value cost="258435" currency="€" />
+    <address city="Viseu" street="Rua da Fonte" port="14" />
+    <owners>
+      <owner taxnumber="798841597">
+        <purchase date="04-05-2004" sold="03-02-2015" />
+        <name firstname="André" lastname="Cardoso" />
+      </owner>
+    </owners>
+  </property>
+  <property id="5555" type="apartment">
+    <value cost="657894" currency="$" />
+    <address city="Aveiro" street="Rua Mario" port="2" />
+    <owners>
+      <owner taxnumber="321159357">
+        <purchase date="04-05-2014" />
+        <name firstname="Luis" lastname="Santos" />
+      </owner>
+    </owners>
+  </property>
+  <!--Casas com 2 donos -->
+  <property id="6666" type="house">
+    <value cost="857912" currency="$" />
+    <address city="Coimbra" street="Rua da Pega" port="5" />
+    <owners>
+      <owner taxnumber="654951789">
+        <purchase date="04-10-2005" sold="05-05-2015" />
+        <name firstname="André" lastname="Cardoso" />
+      </owner>
+      <owner taxnumber="357789456">
+        <purchase date="05-05-2015" />
+        <name firstname="Barbara" lastname="Pereira" />
+      </owner>
+    </owners>
+  </property>
+  <property id="7777" type="apartment">
+    <value cost="678524" currency="€" />
+    <address city="Porto" street="Largo das Sete Fontes" port="79" />
+    <owners>
+      <owner taxnumber="1873648264">
+        <purchase date="04-05-2004" sold="03-08-2012" />
+        <name firstname="João" lastname="Porto" />
+      </owner>
+      <owner taxnumber="684235791">
+        <purchase date="03-08-2012" />
+        <name firstname="Andreia" lastname="Pinto" />
+      </owner>
+    </owners>
+  </property>
+  <property id="8888" type="apartment">
+    <value cost="956871" currency="€" />
+    <address city="Porto" street="Largo Sta Joana" port="79" />
+    <owners>
+      <owner taxnumber="159357123">
+        <purchase date="04-05-2004" sold="03-08-2012" />
+        <name firstname="Miguel" lastname="Vieira" />
+      </owner>
+      <owner taxnumber="789321546">
+        <purchase date="03-08-2012" />
+        <name firstname="Rita" lastname="vale" />
+      </owner>
+    </owners>
+  </property>
+  <!--Casas com 3 donos -->
+  <property id="9999" type="house">
+    <value cost="284679" currency="€" />
+    <address city="Viseu" street="Rua da Nova" port="22" />
+    <owners>
+      <owner taxnumber="468257931">
+        <purchase date="04-05-2004" sold="03-02-2015" />
+        <name firstname="André" lastname="Cardoso" />
+      </owner>
+      <owner taxnumber="456681249">
+        <purchase date="03-02-2015" sold="03-05-2015" />
+        <name firstname="David" lastname="Cardoso" />
+      </owner>
+      <owner taxnumber="789513462">
+        <purchase date="03-05-2015" />
+        <name firstname="Carlos " lastname="Cardoso" />
+      </owner>
+    </owners>
+  </property>
+</properties>

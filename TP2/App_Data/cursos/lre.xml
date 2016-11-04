@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<curso>
+  <guid>36</guid>
+  <nome><![CDATA[Línguas e Relações Empresariais]]></nome>
+  <imagem><![CDATA[http://acesso.ua.pt/upload/imagens/c_36.jpg]]></imagem>
+  <codigo>0300/9196</codigo>
+  <grau><![CDATA[Licenciatura]]></grau>
+  <ciclo>1</ciclo>
+  <duracao>3 anos letivos / 6 Semestres (180 ECTS)</duracao>
+  <ano_inicio>2004-2005</ano_inicio>
+  <regime><![CDATA[diurno / laboral]]></regime>
+  <horario><![CDATA[]]></horario>
+  <propinas><![CDATA[1063,47€/ano (estudantes nacionais)]]></propinas>
+  <subsistema><![CDATA[Universitário]]></subsistema>
+  <areas>
+    <area><![CDATA[Gestão]]></area>
+    <area><![CDATA[Línguas]]></area>
+  </areas>
+  <director>
+    <nome>Prof. Doutor Maria Eugénia Tavares Pereira</nome>
+    <email>epereira@ua.pt</email>
+  </director>
+  <departamentos>
+    <departamento>
+      <nome>Departamento de Línguas e Culturas</nome>
+      <url>http://www.ua.pt/dlc</url>
+    </departamento>
+  </departamentos>
+  <medias>
+    <fase1>146,2</fase1>
+    <fase2>0</fase2>
+    <fase3>0</fase3>
+  </medias>
+  <vagas>
+    <fase1>70</fase1>
+    <fase2>4</fase2>
+    <fase3>0</fase3>
+  </vagas>
+  <provas><![CDATA[Um dos seguintes conjuntos: 18 Português <br /> ou<br /> 01 Alemão e 13 Inglês  <br />ou<br /> 08 Francês e 13 Inglês <br /><br /><strong>O cálculo da nota de acesso considera:</strong><ul><li>60% da nota do ensino secundário</li><li>40% da nota da prova de ingresso</li></ul>]]></provas>
+  <ano_info><![CDATA[2016/2017]]></ano_info>
+  <saidas_profissionais>
+    <![CDATA[<p>A conjuga&ccedil;&atilde;o de compet&ecirc;ncias em L&iacute;nguas Estrangeiras com conhecimentos de Gest&atilde;o e Marketing e com o dom&iacute;nio das Novas Tecnologias da Comunica&ccedil;&atilde;o e da Informa&ccedil;&atilde;o, permite aos licenciados que concluam o 1.&ordm; ciclo em L&iacute;nguas e Rela&ccedil;&otilde;es Empresariais o exerc&iacute;cio das fun&ccedil;&otilde;es de assessoria abaixo descritas para os titulares do 2.&ordm; ciclo, em diversas empresas e organiza&ccedil;&otilde;es.</p>
+<p>O 1.&ordm; ciclo de forma&ccedil;&atilde;o em L&iacute;nguas e Rela&ccedil;&otilde;es Empresariais poder&aacute; ser seguido de um ano de profissionaliza&ccedil;&atilde;o integrado no 2.&ordm; ciclo de forma&ccedil;&atilde;o, que, para al&eacute;m de refor&ccedil;ar as compet&ecirc;ncias nas &aacute;reas cient&iacute;ficas do Curso, proporciona um est&aacute;gio numa empresa ou organiza&ccedil;&atilde;o, o que em muito pode contribuir para conferir maior empregabilidade aos diplomados. A conclus&atilde;o do primeiro ano do 2.&ordm; ciclo de estudos confere aos alunos um diploma de Curso de Especializa&ccedil;&atilde;o.</p>
+<p>Aos titulares do 2.&ordm; ciclo ser&aacute; conferido o grau de mestre, ficando habilitados a desempenhar, entre outras, as seguintes fun&ccedil;&otilde;es:</p>
+<ul>
+<li>assessoria de &oacute;rg&atilde;os superiores de administra&ccedil;&atilde;o e decis&atilde;o empresarial em contextos inter e pluriculturais;</li>
+<li>assessoria de atividades ligadas &agrave; publicidade e comunica&ccedil;&atilde;o;</li>
+<li>coordena&ccedil;&atilde;o de comunica&ccedil;&atilde;o nas organiza&ccedil;&otilde;es empresariais e/ou institucionais;</li>
+<li>coordena&ccedil;&atilde;o de iniciativas socioprofissionais nas institui&ccedil;&otilde;es e/ou empresas;</li>
+<li>cria&ccedil;&atilde;o, organiza&ccedil;&atilde;o e divulga&ccedil;&atilde;o de eventos, como congressos, semin&aacute;rios e encontros profissionais;</li>
+<li>assessoria/coordena&ccedil;&atilde;o no &acirc;mbito das atividades de representa&ccedil;&atilde;o</li>
+</ul>]]>
+  </saidas_profissionais>
+  <objectivos><![CDATA[Desenvolver nos futuros licenciados compet&ecirc;ncias no dom&iacute;nio da l&iacute;ngua portuguesa, de duas l&iacute;nguas estrangeiras europeias e ainda numa l&iacute;ngua oriental, com vista ao desempenho comunicativo plurilingue no mundo dos neg&oacute;cios e das institui&ccedil;&otilde;es. <p>Facultar forma&ccedil;&atilde;o em gest&atilde;o e marketing (ao n&iacute;vel da fundamenta&ccedil;&atilde;o te&oacute;rica e da explora&ccedil;&atilde;o pr&aacute;tica), bem como em tecnologias da informa&ccedil;&atilde;o e comunica&ccedil;&atilde;o, e promover, de forma articulada, a aplica&ccedil;&atilde;o das l&iacute;nguas a estas &aacute;reas cient&iacute;ficas. </p>]]></objectivos>
+  <observacoes><![CDATA[]]></observacoes>
+  <testemunho><![CDATA[]]></testemunho>
+  <pre_requisitos><![CDATA[]]></pre_requisitos>
+  <local><![CDATA[Campus Universitário de Santiago, Aveiro]]></local>
+  <urlmaisinfo><![CDATA[http://]]></urlmaisinfo>
+  <urlcandidaturas><![CDATA[http://]]></urlcandidaturas>
+  <urlmobilidade><![CDATA[http://]]></urlmobilidade>
+  <m23>
+    <provas>
+      <![CDATA[português E inglês
+<a href="http://www.ua.pt/ensino/PageText.aspx?id=15132" target=_blank>programa</a>]]>
+    </provas>
+    <vagas><![CDATA[]]></vagas>
+    <urlinfo><![CDATA[http://www.ua.pt/m23]]></urlinfo>
+    <observacoes><![CDATA[]]></observacoes>
+  </m23>
+  <posgraduacoes>
+    <periodo><![CDATA[]]></periodo>
+    <corpo_docente><![CDATA[]]></corpo_docente>
+    <destinatarios><![CDATA[]]></destinatarios>
+    <vagas><![CDATA[]]></vagas>
+    <vagas_obs><![CDATA[]]></vagas_obs>
+    <urlmobilidade><![CDATA[]]></urlmobilidade>
+    <ano_info><![CDATA[]]></ano_info>
+    <edital><![CDATA[]]></edital>
+    <ata><![CDATA[]]></ata>
+  </posgraduacoes>
+</curso>
+
